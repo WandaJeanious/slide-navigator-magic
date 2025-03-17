@@ -1,50 +1,21 @@
-
 import CourseHeader from "@/components/CourseHeader";
 import CourseNav from "@/components/CourseNav";
 import SlideContent from "@/components/SlideContent";
+import VideoEmbed from "@/components/VideoEmbed";
 
 const Representation = () => {
   const slides = [
-    {
-      title: "Examples of Representation in an ECE Environment",
-      content: (
-        <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Verbal presentation (singing, talking)</li>
-                <li>Hands-on learning</li>
-                <li>Visual schedules</li>
-                <li>Visual steps to tasks</li>
-                <li>Showing the actual materials or tools students will use to complete a task</li>
-                <li>Model steps for completing a task, while verbally describing the steps</li>
-                <li>When presenting new vocabulary or concepts – state or read the word, pause, show an image, state the word, then define it</li>
-              </ul>
-            </div>
-            <div>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Repeat and restate key concepts in different ways so that everyone understands.</li>
-                <li>Break instructions into smaller distinct steps.</li>
-                <li>With multilingual children use primary language and English to present key words or concepts.</li>
-                <li>Offer opportunities for children to share culturally relevant materials or pictures with the other children.</li>
-                <li>Use signs and help children learn frequently used signs to facilitate communication.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      ),
-      image: "public/lovable-uploads/db4f23e4-87df-46ba-8d62-44f72d0100da.png"
-    },
     {
       title: "Representation: The WHAT of Learning",
       content: (
         <div className="space-y-4">
           <p>
-            Representation refers to how information is presented to learners. It represents the "what" of learning.
+            Representation refers to the ways we present information and content to learners. 
+            It represents the "what" of learning.
           </p>
-          <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
+          <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
             <img 
-              src="public/lovable-uploads/5a1a70b4-2f8a-437c-861c-23e2132cad3f.png" 
+              src="public/lovable-uploads/fe88df29-4959-46ed-82f0-425be0885dae.png" 
               alt="The WHAT of learning brain diagram" 
               className="mx-auto h-[200px] mb-2"
             />
@@ -52,81 +23,77 @@ const Representation = () => {
               Image Credit: https://www.cast.org/impact/universal-design-for-learning-udl
             </p>
           </div>
+          <div className="mt-2">
+            <VideoEmbed title="UDL: Multiple Means of Representation" placeholder={true} />
+          </div>
         </div>
       )
+    },
+    {
+      title: "Examples of Multiple Means of Representation",
+      content: (
+        <div className="space-y-4">
+          <p>In early childhood settings, we can provide multiple means of representation by:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Using visual supports alongside verbal instructions</li>
+            <li>Offering information through multiple sensory channels (visual, auditory, tactile)</li>
+            <li>Providing options for language learning (pictures, objects, demonstrations)</li>
+            <li>Breaking down complex concepts into manageable parts</li>
+            <li>Making connections to children's prior knowledge and experiences</li>
+            <li>Using diverse examples that represent all children in the classroom</li>
+          </ul>
+        </div>
+      ),
+      image: "public/lovable-uploads/db4f23e4-87df-46ba-8d62-44f72d0100da.png"
     },
     {
       title: "Representation in Practice",
       content: (
         <div className="space-y-4">
-          <h4 className="font-bold mb-2">Key Strategies for Effective Representation:</h4>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Present materials with a variety of modes of access for diverse learners.</li>
-            <li>Account for visual, tactile, auditory learning.</li>
-            <li>Account for varying level(s) of challenge within one lesson/activity.</li>
-          </ul>
+          <div className="mb-4">
+            <h4 className="font-bold mb-1">✓ Provide multiple formats when presenting information</h4>
+            <p>
+              Offer visual, auditory, and tactile experiences to support learning.
+            </p>
+          </div>
           
-          <div className="px-6 py-4 bg-gray-50 rounded-lg border border-gray-200 mt-4">
-            <h4 className="font-semibold mb-2">Example Activity: Sorting balls by color</h4>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>
-                <span className="font-medium">Modification:</span> Sorting balls into baskets (accounts for fine motor 
-                variances), finding 2 similarly colored balls when prompted
-              </li>
-              <li>
-                <span className="font-medium">Stretch:</span> Sorting by color into a sorting tunnel and then 
-                naming/matching the color with a flashcard or a different object in the room.
-              </li>
+          <div className="px-6 py-4 bg-gray-50 rounded-lg border border-gray-200">
+            <h4 className="font-semibold mb-2">Example:</h4>
+            <p>
+              When teaching about the life cycle of a butterfly, provide:
+            </p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li>Picture books about butterflies</li>
+              <li>Real caterpillars to observe</li>
+              <li>A song about butterfly life cycles</li>
+              <li>A movement activity where children act out the stages</li>
+              <li>Tactile materials representing each stage</li>
             </ul>
           </div>
         </div>
-      ),
-      image: "public/lovable-uploads/aa1266f5-b006-4ae5-ac72-a351e583309b.png"
+      )
     },
     {
-      title: "What Can UDL Look Like in an ECE Classroom?",
+      title: "Representation in Inclusive Environments",
       content: (
         <div className="space-y-4">
-          <p className="mb-4">
-            Here are some examples of how representation can be implemented in early childhood classrooms:
+          <p>
+            When we provide multiple means of representation, we recognize that children access and process 
+            information in different ways. This is particularly important for:
           </p>
-          
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <img 
-                src="public/lovable-uploads/83918765-a053-4971-9148-9a7c4479a940.png" 
-                alt="Classroom label example" 
-                className="rounded-lg shadow-md mb-2 h-32 object-cover w-full"
-              />
-              <p className="text-sm text-center">Multilingual labels for areas</p>
-            </div>
-            <div>
-              <img 
-                src="public/lovable-uploads/952438bd-b54a-48b1-aff2-7af3e26a6b34.png" 
-                alt="Visual schedule example" 
-                className="rounded-lg shadow-md mb-2 h-32 object-cover w-full"
-              />
-              <p className="text-sm text-center">Visual schedules and routines</p>
-            </div>
-            <div>
-              <img 
-                src="public/lovable-uploads/b00b9721-9486-4b64-983e-36ee22fddd44.png" 
-                alt="Classroom labels with images" 
-                className="rounded-lg shadow-md mb-2 h-32 object-cover w-full"
-              />
-              <p className="text-sm text-center">Center labels with images</p>
-            </div>
-            <div>
-              <img 
-                src="public/lovable-uploads/f3e44582-f95c-4496-978c-5645b36cdbd3.png" 
-                alt="Handwashing instructions" 
-                className="rounded-lg shadow-md mb-2 h-32 object-cover w-full"
-              />
-              <p className="text-sm text-center">Visual step-by-step instructions</p>
-            </div>
-          </div>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Children learning English as an additional language</li>
+            <li>Children with sensory processing differences</li>
+            <li>Children with different learning preferences</li>
+            <li>Children with varying levels of background knowledge</li>
+          </ul>
+          <p className="mt-2">
+            By providing options for perception, language, and comprehension, we create learning experiences 
+            that are accessible to all children from the start, rather than modifying after the fact.
+          </p>
         </div>
-      )
+      ),
+      image: "public/lovable-uploads/aa1266f5-b006-4ae5-ac72-a351e583309b.png"
     }
   ];
 
@@ -140,7 +107,7 @@ const Representation = () => {
         <div className="w-full lg:w-3/4">
           <CourseHeader 
             title="Representation" 
-            subtitle="Providing multiple means of representing information to learners"
+            subtitle="Providing multiple ways for children to access and understand information"
             progress={55}
           />
           
