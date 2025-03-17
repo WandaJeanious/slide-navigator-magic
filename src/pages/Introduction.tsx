@@ -1,4 +1,3 @@
-
 import CourseHeader from "@/components/CourseHeader";
 import CourseNav from "@/components/CourseNav";
 import SlideContent from "@/components/SlideContent";
@@ -65,7 +64,7 @@ const Introduction = () => {
           </p>
         </div>
       ),
-      image: "public/lovable-uploads/52dce011-67b0-4117-afb0-e3dc17eaf3c8.png"
+      image: "/lovable-uploads/52dce011-67b0-4117-afb0-e3dc17eaf3c8.png"
     },
     {
       title: "Accessible vs Universal Design",

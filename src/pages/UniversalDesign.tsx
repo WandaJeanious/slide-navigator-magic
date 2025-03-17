@@ -25,7 +25,7 @@ const UniversalDesign = () => {
           </div>
         </div>
       ),
-      image: "public/lovable-uploads/3e1550e5-f7ed-42bc-9e20-30c3eb9074fe.png"
+      image: "/lovable-uploads/3e1550e5-f7ed-42bc-9e20-30c3eb9074fe.png"
     },
     {
       title: "What is Universal Design for Learning (UDL)?",
@@ -59,7 +59,7 @@ const UniversalDesign = () => {
           </ul>
         </div>
       ),
-      image: "public/lovable-uploads/d4cf8365-fb7d-467a-b98c-e6d79ba1fac7.png"
+      image: "/lovable-uploads/d4cf8365-fb7d-467a-b98c-e6d79ba1fac7.png"
     },
     {
       title: "Universal Design vs Universal Design for Learning",
@@ -67,7 +67,7 @@ const UniversalDesign = () => {
         <div>
           <div className="mb-6">
             <img 
-              src="public/lovable-uploads/2b19ed54-d695-4078-a779-c9923150a62d.png" 
+              src="/lovable-uploads/2b19ed54-d695-4078-a779-c9923150a62d.png" 
               alt="UDL vs UD Venn Diagram" 
               className="mx-auto max-h-[300px]"
             />

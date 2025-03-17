@@ -18,7 +18,7 @@ const ActionExpression = () => {
           </ul>
         </div>
       ),
-      image: "public/lovable-uploads/e7f7d9b6-c4ca-4b8c-9af3-10200f649c10.png"
+      image: "/lovable-uploads/e7f7d9b6-c4ca-4b8c-9af3-10200f649c10.png"
     },
     {
       title: "Action and Expression: The HOW of Learning",
@@ -30,7 +30,7 @@ const ActionExpression = () => {
           </p>
           <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
             <img 
-              src="public/lovable-uploads/c90cba16-8c23-4470-9ea1-d7f9cc39abfb.png" 
+              src="/lovable-uploads/c90cba16-8c23-4470-9ea1-d7f9cc39abfb.png" 
               alt="The HOW of learning brain diagram" 
               className="mx-auto h-[200px] mb-2"
             />

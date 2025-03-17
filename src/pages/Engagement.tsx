@@ -1,4 +1,3 @@
-
 import CourseHeader from "@/components/CourseHeader";
 import CourseNav from "@/components/CourseNav";
 import SlideContent from "@/components/SlideContent";
@@ -15,7 +14,7 @@ const Engagement = () => {
           </p>
           <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
             <img 
-              src="public/lovable-uploads/5a1a70b4-2f8a-437c-861c-23e2132cad3f.png" 
+              src="/lovable-uploads/5a1a70b4-2f8a-437c-861c-23e2132cad3f.png" 
               alt="The WHY of learning brain diagram" 
               className="mx-auto h-[200px] mb-2"
             />
@@ -41,7 +40,7 @@ const Engagement = () => {
           </ul>
         </div>
       ),
-      image: "public/lovable-uploads/f6d73fa7-91a9-4d12-bc97-7040b1f81b9f.png"
+      image: "/lovable-uploads/f6d73fa7-91a9-4d12-bc97-7040b1f81b9f.png"
     },
     {
       title: "Engagement in Practice",
@@ -98,7 +97,7 @@ const Engagement = () => {
           </div>
         </div>
       ),
-      image: "public/lovable-uploads/83918765-a053-4971-9148-9a7c4479a940.png"
+      image: "/lovable-uploads/83918765-a053-4971-9148-9a7c4479a940.png"
     }
   ];
 

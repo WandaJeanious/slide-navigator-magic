@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const caseStudies = [
   {
     title: "Case Study 1: Supporting Sensory Needs in the Classroom",
-    image: "public/lovable-uploads/f3e44582-f95c-4496-978c-5645b36cdbd3.png",
+    image: "/lovable-uploads/f3e44582-f95c-4496-978c-5645b36cdbd3.png",
     background: "Maya is a 4-year-old in Ms. Johnson's preschool classroom. Maya has sensory processing differences and becomes overwhelmed in loud or busy environments. She often covers her ears during group activities and sometimes has difficulty transitioning between activities.",
     challenge: "How can Ms. Johnson support Maya's full participation in the classroom while addressing her sensory needs?",
     solution: [
@@ -27,7 +27,7 @@ const caseStudies = [
   },
   {
     title: "Case Study 2: Supporting Language Diversity",
-    image: "public/lovable-uploads/f8c5bffc-a85c-48ea-9278-1fe5882469b7.png",
+    image: "/lovable-uploads/f8c5bffc-a85c-48ea-9278-1fe5882469b7.png",
     background: "Mr. Torres's classroom includes five children who are dual language learners, with home languages including Spanish, Arabic, and Mandarin. Some children are in the early stages of English acquisition, while others are more fluent.",
     challenge: "How can Mr. Torres ensure all children can access learning experiences and express their understanding, regardless of their language proficiency?",
     solution: [
@@ -46,7 +46,7 @@ const caseStudies = [
   },
   {
     title: "Case Study 3: Supporting Motor Development Differences",
-    image: "public/lovable-uploads/ab54f918-feb6-4f1d-b528-417eacb371b5.png",
+    image: "/lovable-uploads/ab54f918-feb6-4f1d-b528-417eacb371b5.png",
     background: "Elijah is a 3-year-old who uses a walker for mobility. He attends Ms. Garcia's inclusive preschool classroom and wants to participate in all activities with his peers.",
     challenge: "How can Ms. Garcia ensure Elijah has equitable access to all learning centers and activities while supporting his independence?",
     solution: [

@@ -15,7 +15,7 @@ const Representation = () => {
           </p>
           <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
             <img 
-              src="public/lovable-uploads/fe88df29-4959-46ed-82f0-425be0885dae.png" 
+              src="/lovable-uploads/fe88df29-4959-46ed-82f0-425be0885dae.png" 
               alt="The WHAT of learning brain diagram" 
               className="mx-auto h-[200px] mb-2"
             />
@@ -44,7 +44,7 @@ const Representation = () => {
           </ul>
         </div>
       ),
-      image: "public/lovable-uploads/db4f23e4-87df-46ba-8d62-44f72d0100da.png"
+      image: "/lovable-uploads/db4f23e4-87df-46ba-8d62-44f72d0100da.png"
     },
     {
       title: "Representation in Practice",
@@ -93,7 +93,7 @@ const Representation = () => {
           </p>
         </div>
       ),
-      image: "public/lovable-uploads/aa1266f5-b006-4ae5-ac72-a351e583309b.png"
+      image: "/lovable-uploads/aa1266f5-b006-4ae5-ac72-a351e583309b.png"
     }
   ];
 

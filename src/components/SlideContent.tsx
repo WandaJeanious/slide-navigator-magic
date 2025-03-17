@@ -46,7 +46,7 @@ export const SlideContent = ({ slides }: SlideContentProps) => {
                 {slide.image && (
                   <div className="md:w-1/2 flex justify-center items-center">
                     <img 
-                      src={slide.image} 
+                      src={slide.image.replace('public/', '/')} 
                       alt={slide.title} 
                       className="rounded-lg shadow-md interactive-image max-h-80 object-contain"
                     />
