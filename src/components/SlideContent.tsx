@@ -38,7 +38,7 @@ export const SlideContent = ({ slides }: SlideContentProps) => {
               key={index} 
               className="min-w-full glass-card p-8"
             >
-              <h3 className="text-2xl font-semibold mb-6 text-kentucky-blue">{slide.title}</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-red-600">{slide.title}</h3>
               <div className="flex flex-col md:flex-row gap-8">
                 <div className={cn("flex-1", slide.image ? "md:w-1/2" : "w-full")}>
                   {slide.content}
@@ -46,7 +46,7 @@ export const SlideContent = ({ slides }: SlideContentProps) => {
                 {slide.image && (
                   <div className="md:w-1/2 flex justify-center items-center">
                     <img 
-                      src={slide.image.replace('public/', '/')} 
+                      src={slide.image} 
                       alt={slide.title} 
                       className="rounded-lg shadow-md interactive-image max-h-80 object-contain"
                     />
@@ -62,8 +62,8 @@ export const SlideContent = ({ slides }: SlideContentProps) => {
             onClick={prevSlide} 
             disabled={currentSlide === 0}
             className={cn(
-              "p-2 rounded-full bg-kentucky-blue text-white",
-              currentSlide === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-kentucky-darkBlue"
+              "p-2 rounded-full bg-red-600 text-white",
+              currentSlide === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-red-700"
             )}
           >
             <ChevronLeft size={24} />
@@ -76,7 +76,7 @@ export const SlideContent = ({ slides }: SlideContentProps) => {
                 className={cn(
                   "w-2.5 h-2.5 rounded-full transition-all",
                   index === currentSlide 
-                    ? "bg-kentucky-blue w-6" 
+                    ? "bg-red-600 w-6" 
                     : "bg-gray-300 hover:bg-gray-400"
                 )}
               />
@@ -86,8 +86,8 @@ export const SlideContent = ({ slides }: SlideContentProps) => {
             onClick={nextSlide} 
             disabled={currentSlide === slides.length - 1}
             className={cn(
-              "p-2 rounded-full bg-kentucky-blue text-white",
-              currentSlide === slides.length - 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-kentucky-darkBlue"
+              "p-2 rounded-full bg-red-600 text-white",
+              currentSlide === slides.length - 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-red-700"
             )}
           >
             <ChevronRight size={24} />
